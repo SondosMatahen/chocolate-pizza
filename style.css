@@ -8,18 +8,23 @@
     margin-left: 30px;
     margin-top: 20px;
 }
-
+#firimg{
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 70px;
+}
 .logoblocks {
     width: 70%;
     margin-top: 20px;
 }
 
 .imgs5 img {
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 2px;
 }
 
 .imgs2 {
+    margin-top: 30px;
     margin-left: 10px;
 }
 
@@ -49,6 +54,8 @@
 }
 
 #par {
+    padding-top: 50px;
+    text-indent: 30px;
     width: 90%;
     margin: 30px auto;
     font-size: 150%;
@@ -63,7 +70,7 @@
 .ulists {
     display: flex;
     justify-content: space-evenly;
-    font-size: 250%;
+    font-size: 200%;
     position: relative;
 }
 
@@ -75,21 +82,25 @@
 }
 
 .Flist {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 90%;
-    margin: 100px 60px;
+    margin: 120px 60px;
     display: block;
     position: absolute;
     right: auto;
 }
 
 .Slist {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
-    left: 40%;
+    left: 55%;
     width: 90%;
-    margin: 100px auto;
+    margin: 120px auto;
     display: block;
 }
-
+.ulists li{
+    padding: 5px;
+}
 .mainFooter {
     width: 90%;
     margin: 0 auto;
@@ -98,6 +109,7 @@
 }
 
 .mainFooterp {
+    width: 800px;
     font-size: 20pt;
 }
 
@@ -105,6 +117,11 @@
     font-weight: 800;
     font-size: 25pt;
     margin-bottom: 10px;
+}
+.mainFooterp p{
+    word-spacing:2px;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer {
@@ -114,11 +131,26 @@ footer {
 }
 
 footer img {
-    margin-top: 50px;
+    margin-top: 80px;
     height: 50px;
     margin-bottom: 20px;
 }
 
 footer p {
     font-size: 15pt;
+}
+header h1 , main h1 {
+    font-size: 400%;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Slist  li:nth-child(3) , .Slist li:nth-child(2)  {
+    text-decoration: line-through;
+}
+#saveBtn{
+    background-color: rgb(206, 36, 36);
+    color: cornsilk;
+    width: 200px;
+    margin-left: 50px;
+    height: 80px;
 }
